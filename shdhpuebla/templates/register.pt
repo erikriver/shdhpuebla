@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:tal="http://xml.zope.org/namespaces/tal">
+<head>
+  <title>Super Happy Dev House - Puebla</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  <link rel="shortcut icon" href="${request.static_url('shdhpuebla:static/favicon.ico')}" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700|Open+Sans:400italic,400,700,600' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="${request.static_url('shdhpuebla:static/master.css')}" type="text/css" media="screen" />     
+</head>
+<body>
+    <div class="centerContainer">
+        <div class="blankSeparator"><!-- --></div>
+        
+        <div id="contactForm">
+              <h2>Formulario de Registro</h2>
+              <form action="register" method="post" id="contact_form">
+                <div class="name">
+                  <label for="name">Tu Nombre:</label>
+                  <p> Introduce tu nombre completo</p>
+                  <input type="text" name="name" id="name" value="${user_name}" tabindex="1">
+                </div>
+                <div class="email">
+                  <label for="email">Tu Correo:</label>
+                  <p> Por favor introduce tu correo electróncio</p>
+                  <input type="text" name="email" id="email" value="${email}" tabindex="2">
+                </div>
+                <div class="message">
+                  <label for="message">Tu Actividad:</label>
+                  <p> Explica en 140 caracteres que actividad vas a realizar en el evento </p>
+                  <textarea cols="40" rows="6" name="message" id="message"></textarea>
+                </div>
+                <div id="loader">
+                  <input type="submit" name="submit" value="Enviar">
+                </div>
+              </form>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

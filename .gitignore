@@ -1,0 +1,7 @@
+shdhpuebla.db
+shdhpuebla.egg-info/
+build/
+*.pyc
+local.ini
+deployment.ini
+

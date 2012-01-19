@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:tal="http://xml.zope.org/namespaces/tal">
+<head>
+  <title>Super Happy Dev House - Puebla</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+  <meta name="keywords" content="shdh puebla mexico startup desarrollo" />
+  <meta name="description" content="Super Happy Dev House Puebla" />
+  <link rel="shortcut icon" href="${request.static_url('shdhpuebla:static/favicon.ico')}" />
+  <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700|Open+Sans:400italic,400,700,600' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="${request.static_url('shdhpuebla:static/master.css')}" type="text/css" media="screen" />
+  <link rel="stylesheet" href="${request.static_url('shdhpuebla:static/facebox.css')}" type="text/css" media="screen" />
+  <script src="${request.static_url('shdhpuebla:static/jquery.js')}" type="text/javascript"></script>
+  <script src="${request.static_url('shdhpuebla:static/facebox.js')}" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+     jQuery(document).ready(function($) {
+       $('a[rel*=facebox]').facebox({
+         loadingImage : '/static/img/loading.gif',
+         closeImage   : '/static/img/closelabel.png'
+       })
+     })
+   </script>
+   
+  <style>
+  div.intro h2 {
+      font-size: 54px;
+  }  
+  div.advise h2 {
+      text-align: center;
+      font-size: 44px;
+  }  
+  div.advise h3 {
+      text-align: center;
+      font-size: 24px;
+  }
+  div.advise p {
+    text-align: center;
+  }
+  div.advise a {
+    color: #696B73;
+  }
+  div.advise a:hover {
+    color: #FCCF2D;
+  }
+  
+  div#tables td {
+      text-align: left;
+  }  
+  
+  
+  </style>
+</head>
+<body>
+
+    <div id="introContainer">
+      <div class="centerContainer">
+          <br />
+        <div class="intro">
+            <div class="one-fourth">
+                <a href="/" title="SHDH"><img src="/static/img/shdh-logo-150.png" alt="Super Happy Dev House"></a> 
+            </div>
+            <h1>Super Happy Dev House</h1>
+            <h2>Puebla</h2> 
+        </div>
+        <div class="sepContainer"><!-- --></div>
+        <div class="advise">
+          <h2 tal:content="structure event.name"># Edición</h2>
+          <h3>11 Febrero 2012 - 9:00 PM a 9:00 AM</h3>
+          <div class="sepContainer"><!-- --></div>
+        </div>
+        <!-- end intro --> 
+      </div>
+      <!-- end centerContainer --> 
+    </div>
+    <!-- end introContainer -->
+    
+    <div id="servicesContainer">
+      <div class="centerContainer">
+        <div class="one-half">
+          <ul class="services">
+            <li> <img src="/static/img/shdh_definition.png" class="fl" alt=""/>
+              <h2>¿Que es?</h2>
+              <p>Es una reunión informal de personas intelectualmente curiosas, apasionadas por la tecnología en el que construimos cosas por la simple satisfacción de hacerlo. Se promueve una cultura de apertura y manos a la obra.
+              </p>
+              <p>La mayoría de los asistentes son desarrolladores de software, pero si tu haces algo diferente, eres bienvenido.</p>
+            </li>
+
+            <li>
+              <div class="blankSeparator"><!-- --></div>
+              <img src="/static/img/shdh_gear.png" class="fl" alt=""/>
+              <h2>¿Como Participo?</h2>
+              <p>
+                  Es un excelente ambiente para trabajar en proyectos personales y conocer las habilidades de otras personas. La gente pregunta por lo que haces y a la vez tú preguntas a los demás. Si quieres irte a una esquina a programar, puedes hacerlo. Si quieres preguntarle algo interesante a alguien más, también es válido.
+              </p>
+              <p>Solo necesitas llevar tu computadora y muchas ganas de interactuar con mas gente interesante como tu</p>
+             </li>
+          </ul>
+        </div>
+        <!-- end one-half -->
+        <div class="secondContainer">
+          <ul class="about_services">
+            <li>
+              <h2>¿Donde es?</h2>
+              <div class="map-iframe">
+                  <iframe width="340" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=210618315221267007164.0004b61f1bbb78434c399&amp;ie=UTF8&amp;t=m&amp;vpsrc=0&amp;ll=19.055952,-98.227215&amp;spn=0.001521,0.003637&amp;z=17&amp;output=embed"></iframe>
+              </div>
+             <br>
+              <p>Aun estamos por definir la sede, si tienes una sugerencia por favor contáctanos</p>
+             </li>
+          </ul>
+        </div>
+        <!-- end one-half --> 
+      </div>
+
+      <!-- end centerContainer -->       
+    </div>
+    
+    <div class="centerContainer">
+        <div class="sepContainer"><!-- --></div>
+        <div class="advise">
+          <h2>Registro</h2>
+          <p>
+            <a href="/facebook/login"><img src="/static/img/facebook-login.png" /></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="/twitter/login" ><img src="/static/img/twitter-login.png" /></a>
+          </p>
+          <p>
+            Es necesario que te registres y le expliques a los demás participantes en que actividades estarás realizando
+          </p>
+          <div id="tables">
+          <table style="width:940px" cellpadding="0" cellspacing="0" class="short-table blue">
+                <thead>
+                  <tr>
+                    <th style="width:10%"></th>
+                    <th style="width:15%">Nombre</th>
+                    <th style="width:20%">Red Social</th>
+                    <th style="width:50%">Que vas hacer</th>
+                  </tr>
+                </thead>
+                <tbody>                    
+                  <tr tal:repeat="attendant event.attendees">
+                    <td><img src="${attendant.image_url}" width="48" height="48" /></td>
+                    <td>${attendant.user_name}</td>
+                    <td>
+                        <a href="${attendant.url}" target="_blank">
+                        <img src="/static/img/${attendant.network}.png" width="32" height="32" />
+                            <span tal:condition="attendant.network == 'facebook'">@${attendant.user_name}</span>
+                            <span tal:condition="attendant.network == 'twitter'">@${attendant.user_id}</span>
+                        </a>
+                    </td>
+                    <td>${attendant.tasks}</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+          <div class="sepContainer"><!-- --></div>
+        </div>
+        
+        <div class="advise">
+         <div class="photos">
+               <h2 class="shortcodes">Organizan</h2>
+               <div class="one-third"> <a href="http://iservices.mx/"><img src="https://twimg0-a.akamaihd.net/profile_images/568909258/twitterProfilePhoto_reasonably_small.jpg" alt="Erik Rivera Morales"> Erik Rivera</a> </div>
+               <!-- one-third -->
+               <div class="one-third"> <a href="http://www.angelventuresmexico.com/" ><img src="https://twimg0-a.akamaihd.net/profile_images/1187393714/logoangel_reasonably_small.jpg" alt="Angel Ventures México"> Santiago Lopez</a> </div>
+               <!-- one-third -->
+               <div class="one-third"> <a href="http://twitter.com/@Deilusia" ><img src="https://twimg0-a.akamaihd.net/profile_images/1762186392/1326822856109_122464_reasonably_small.jpg" alt=" Elena Vazquez"> Elena Vazquez</a> </div>
+                <!-- one-third -->
+               <div class="one-third lastCol"> <a href="http://mexican.vc/" ><img src="https://twimg0-a.akamaihd.net/profile_images/1399007345/avar_reasonably_small.png" alt="Santiago Zavala"> Santiago Zavala</a> </div>
+               <!-- one-third lastCol--> 
+             </div>
+         <p>
+           
+           
+           
+           
+         </p>
+         <p>
+         
+         
+        </div>
+    </div>
+        
+</body>
+</html>
