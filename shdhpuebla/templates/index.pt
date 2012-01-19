@@ -65,7 +65,7 @@
         <div class="sepContainer"><!-- --></div>
         <div class="advise">
           <h2 tal:content="structure event.name"># Edición</h2>
-          <h3>11 Febrero 2012 - 9:00 PM a 9:00 AM</h3>
+          <h3>11 Febrero 2012 - 10:00 AM a 10:00 PM</h3>
           <div class="sepContainer"><!-- --></div>
         </div>
         <!-- end intro --> 
