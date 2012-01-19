@@ -15,16 +15,16 @@ class TestMyView(unittest.TestCase):
         DBSession.configure(bind=engine)
         Base.metadata.create_all(engine)
         with transaction.manager:
-            model = MyModel(name='one', value=55)
-            DBSession.add(model)
+            event = Event(name=u'Primera Edici&oacute;n', city=u'Puebla, Pue.',start=datetime(2012,02,11,9,0), end=datetime(2012,02,11,21,0), active=True)
+            DBSession.add(event)
 
     def tearDown(self):
         DBSession.remove()
         testing.tearDown()
 
     def test_it(self):
-        from .views import my_view
+        from .views import index
         request = testing.DummyRequest()
-        info = my_view(request)
-        self.assertEqual(info['one'].name, 'one')
-        self.assertEqual(info['project'], 'shdhpuebla')
+        index = index(request)
+        self.assertEqual(index['one'].name, u'Primera Edici&oacute;n')
+        self.assertTrue(index['project'].active)
