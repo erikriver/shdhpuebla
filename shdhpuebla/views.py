@@ -35,22 +35,27 @@ def register(request):
     
     
     if 'submit' in request.POST:
-        event = DBSession.query(Event).filter(Event.active==True).first()
         db_session = DBSession()
-                
-        data = session[network]
+        event = db_session.query(Event).filter(Event.active==True).first()
         
+        data = session[network]
         data['network'] = network
         data['user_name'] = request.params['name']
         data['email'] = request.params['email']
         data['tasks'] = request.params['message']
         data['event'] = event
         
-        print data
+        attende = DBSession.query(Attendance).filter(Attendance.user_id==data['user_id']).first()
+        if attende:
+            attende.user_name = data['user_name']
+            attende.email = data['email']
+            attende.tasks = data['tasks']
+    
+        else:
+            attende = Attendance(**data)
         
-        attende = Attendance(**data)
         db_session.add(attende)
-        #db_session.commit()
+            
         return HTTPFound(location = request.route_url('home'))    
     
     user_name = session[network]['user_name']
