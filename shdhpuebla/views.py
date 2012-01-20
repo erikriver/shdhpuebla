@@ -34,15 +34,15 @@ def register(request):
     if 'twitter' in session:
         network = 'twitter'
     
+    data = session[network]
+    
     event = db_session.query(Event).filter(Event.active==True).first()
     attende = DBSession.query(Attendance).filter(Attendance.user_id==data['user_id']).first()
     
     if 'submit' in request.POST:
         
-        data = session[network]
         data['network'] = network
         data['event'] = event
-        
         data['user_name'] = request.params['name']
         data['email'] = request.params['email']
         data['tasks'] = request.params['message']
@@ -63,8 +63,8 @@ def register(request):
     if attende:
         tasks = attende.tasks
     
-    user_name = session[network]['user_name']
-    email = session[network]['email']
+    user_name = data['user_name']
+    email = data['email']
     
     return {'user_name':user_name, 'email':email, 'tasks':tasks}
 
