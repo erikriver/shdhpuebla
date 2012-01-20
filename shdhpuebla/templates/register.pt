@@ -27,7 +27,7 @@
                 <div class="message">
                   <label for="message">Tu Actividad:</label>
                   <p> Explica en 140 caracteres que actividad vas a realizar en el evento </p>
-                  <textarea cols="40" rows="6" name="message" id="message"></textarea>
+                  <textarea cols="40" rows="6" name="message" id="message" tal:content="tasks"></textarea>
                 </div>
                 <div id="loader">
                   <input type="submit" name="submit" value="Enviar">

@@ -27,25 +27,26 @@ def index(request):
 @view_config(route_name='add', renderer='templates/register.pt')    
 def register(request):
     session = request.session
+    db_session = DBSession()
     
     if 'facebook' in session:
         network = 'facebook'
     if 'twitter' in session:
         network = 'twitter'
     
+    event = db_session.query(Event).filter(Event.active==True).first()
+    attende = DBSession.query(Attendance).filter(Attendance.user_id==data['user_id']).first()
     
     if 'submit' in request.POST:
-        db_session = DBSession()
-        event = db_session.query(Event).filter(Event.active==True).first()
         
         data = session[network]
         data['network'] = network
+        data['event'] = event
+        
         data['user_name'] = request.params['name']
         data['email'] = request.params['email']
         data['tasks'] = request.params['message']
-        data['event'] = event
         
-        attende = DBSession.query(Attendance).filter(Attendance.user_id==data['user_id']).first()
         if attende:
             attende.user_name = data['user_name']
             attende.email = data['email']
@@ -57,11 +58,15 @@ def register(request):
         db_session.add(attende)
             
         return HTTPFound(location = request.route_url('home'))    
+        
+    tasks = ''
+    if attende:
+        tasks = attende.tasks
     
     user_name = session[network]['user_name']
     email = session[network]['email']
     
-    return {'user_name':user_name, 'email':email}
+    return {'user_name':user_name, 'email':email, 'tasks':tasks}
 
 @view_config(route_name='facebook_login')    
 def facebook_login_view(request):
