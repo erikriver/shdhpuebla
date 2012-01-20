@@ -11,9 +11,6 @@ import oauth2 as oauth
 
 from .models import DBSession, Attendance, Event
 
-TWITTER_CONSUMER_KEY = 'z9L2bzVT65BPsqs3uyJRvA'
-TWITTER_CONSUMER_SECRET = 'OFeD4Aie5pJUE6kRBeRI530Xlc0AqYRsQ8uzQhgB8'
-
 TWITTER_REQUEST_TOKEN_URL = 'http://twitter.com/oauth/request_token'
 TWITTER_ACCESS_TOKEN_URL = 'http://twitter.com/oauth/access_token'
 TWITTER_AUTHORIZE_URL = 'http://twitter.com/oauth/authorize'
@@ -62,6 +59,7 @@ def register(request):
     tasks = ''
     if attende:
         tasks = attende.tasks
+        data['email'] = attende.email
     
     user_name = data['user_name']
     email = data['email']
@@ -141,7 +139,7 @@ def twitter_login_view(request):
                 body=body)
         if resp['status'] != '200':
             session.flash(u'Twitter login error', queue='flash_error')
-            session['twitter'] = None
+            session['twitter_request_token'] = None
             return HTTPFound(location=route_url('home', request))
         else:
             twitter_request_token = dict(urlparse.parse_qsl(content))

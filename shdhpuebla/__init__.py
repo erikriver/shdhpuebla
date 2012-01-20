@@ -18,8 +18,6 @@ def main(global_config, **settings):
     config.add_route('home', '/')
     config.add_route('add', '/register')
     
-    #config.include('velruse.providers.twitter')
-    #config.include('velruse.providers.facebook')
     config.add_route("facebook_login", "/facebook/login")
     config.add_route("twitter_login", "/twitter/login")
     

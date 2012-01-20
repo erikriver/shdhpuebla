@@ -40,7 +40,7 @@
     color: #696B73;
   }
   div.advise a:hover {
-    color: #FCCF2D;
+    color: #FFAE3B;
   }
   
   div#tables td {
@@ -51,7 +51,7 @@
   </style>
 </head>
 <body>
-
+<a href="/static/html/flyers1ra.html"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/static/img/publicidad-boton.png" alt="Descarga publicidad"></a>
     <div id="introContainer">
       <div class="centerContainer">
           <br />
@@ -167,17 +167,31 @@
                 <!-- one-third -->
                <div class="one-third lastCol"> <a href="http://mexican.vc/" ><img src="https://twimg0-a.akamaihd.net/profile_images/1399007345/avar_reasonably_small.png" alt="Santiago Zavala"> Santiago Zavala</a> </div>
                <!-- one-third lastCol--> 
-             </div>
-         <p>
-           
-           
-           
-           
-         </p>
-         <p>
-         
+             </div>         
          
         </div>
+
+    </div>
+    
+    <div id="footerCopyrightContainer">
+
+      <div class="centerContainer">
+                          <div class="sepContainer"><!-- --></div>
+          <p><span>Este evento está basado en</span>
+            <a href='http://superhappydevhouse.org/' target="_blank">Super Happy Dev House</a><span>, un evento sin fines de lucro.</span>
+            <span> Con el apoyo de </span>
+                <a href='http://superhappydevhouse.mx/' target="_blank">SuperHappyDevHouse México</a>
+         </p>
+         <div id='credits'>
+               <p> 
+                 <span>El desarrollo de este sitio esta a cargo de</span>
+                 <a href='http://twitter.com/@erik_river' target='blank'>Erik Rivera</a>
+                 <span>el código disponible en</span>
+                 <a href='http://github.com/erikriver/shdhpuebla' target='_blank'>Github</a><span>.</span>
+                </p>
+        </div>
+      </div>
+      <!-- end centerContainer --> 
     </div>
         
 </body>
