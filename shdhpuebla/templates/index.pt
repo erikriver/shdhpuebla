@@ -65,7 +65,7 @@
         <div class="sepContainer"><!-- --></div>
         <div class="advise">
           <h2 tal:content="structure event.name"># Edición</h2>
-          <h3>11 Febrero 2012 - 10:00 AM a 10:00 PM</h3>
+          <h3>18 Febrero 2012 - 10:00 AM a 10:00 PM</h3>
           <div class="sepContainer"><!-- --></div>
         </div>
         <!-- end intro --> 
@@ -86,14 +86,21 @@
             </li>
 
             <li>
-              <div class="blankSeparator"><!-- --></div>
               <img src="/static/img/shdh_gear.png" class="fl" alt=""/>
+              <br />
               <h2>¿Como Participo?</h2>
               <p>
                   Es un excelente ambiente para trabajar en proyectos personales y conocer las habilidades de otras personas. La gente pregunta por lo que haces y a la vez tú preguntas a los demás. Si quieres irte a una esquina a programar, puedes hacerlo. Si quieres preguntarle algo interesante a alguien más, también es válido.
               </p>
               <p>Solo necesitas llevar tu computadora y muchas ganas de interactuar con mas gente interesante como tu</p>
              </li>
+             <li>
+               <img src="/static/img/shdh_coffe.png" class="fl" alt=""/>
+               <br />
+               <h2>¿Algo mas?</h2>
+               <p>La sede cuenta con una fuente de sodas que estará abierta durante todo el tiempo que dure el evento, solo lleva dinero ya que lo que consumas corre por tu cuenta.</p>
+              </li>
+             
           </ul>
         </div>
         <!-- end one-half -->
@@ -102,10 +109,15 @@
             <li>
               <h2>¿Donde es?</h2>
               <div class="map-iframe">
-                  <iframe width="340" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?msa=0&amp;msid=210618315221267007164.0004b61f1bbb78434c399&amp;ie=UTF8&amp;t=m&amp;vpsrc=0&amp;ll=19.055952,-98.227215&amp;spn=0.001521,0.003637&amp;z=17&amp;output=embed"></iframe>
+                  <iframe width="340" height="370" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.mx/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=INQBA&amp;aq=0&amp;sll=23.625269,-102.540613&amp;sspn=19.965157,36.782227&amp;ie=UTF8&amp;hq=INQBA&amp;hnear=INQBA,+72810+Puebla&amp;t=m&amp;ll=19.013324,-98.268229&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br />
               </div>
              <br>
-              <p>Aun estamos por definir la sede, si tienes una sugerencia por favor contáctanos</p>
+              <p><b>inQba Escuela de Negocios</b><br />
+              5° Retorno Circuito Osa Menor 4<br /> 
+              Reserva Territorial Atlixcáyotl<br />
+              San Andrés Cholula, Puebla<br />
+              C.P. 72810
+              </p>
              </li>
           </ul>
         </div>
@@ -125,7 +137,7 @@
             <a href="/twitter/login" ><img src="/static/img/twitter-login.png" /></a>
           </p>
           <p>
-            Es necesario que te registres y le expliques a los demás participantes en que actividades estarás realizando
+            Es necesario que te registres y le expliques a los demás participantes que actividades estarás realizando en el evento, si ya te registraste y quieres editar tu actividad vuelve a entrar con la red social que elegiste al principio.
           </p>
           <div id="tables">
           <table style="width:940px" cellpadding="0" cellspacing="0" class="short-table blue">
@@ -156,19 +168,23 @@
           <div class="sepContainer"><!-- --></div>
         </div>
         
-        <div class="advise">
-         <div class="photos">
-               <h2 class="shortcodes">Organizan</h2>
-               <div class="one-third"> <a href="http://iservices.mx/"><img src="https://twimg0-a.akamaihd.net/profile_images/568909258/twitterProfilePhoto_reasonably_small.jpg" alt="Erik Rivera Morales"> Erik Rivera</a> </div>
-               <!-- one-third -->
-               <div class="one-third"> <a href="http://www.angelventuresmexico.com/" ><img src="https://twimg0-a.akamaihd.net/profile_images/1187393714/logoangel_reasonably_small.jpg" alt="Angel Ventures México"> Santiago Lopez</a> </div>
-               <!-- one-third -->
-               <div class="one-third"> <a href="http://twitter.com/@Deilusia" ><img src="https://twimg0-a.akamaihd.net/profile_images/1762186392/1326822856109_122464_reasonably_small.jpg" alt=" Elena Vazquez"> Elena Vazquez</a> </div>
-                <!-- one-third -->
-               <div class="one-third lastCol"> <a href="http://mexican.vc/" ><img src="https://twimg0-a.akamaihd.net/profile_images/1399007345/avar_reasonably_small.png" alt="Santiago Zavala"> Santiago Zavala</a> </div>
-               <!-- one-third lastCol--> 
-             </div>         
-         
+        
+        <div id="portfolio2columns" class="advise">
+            <div class="one-half">
+             <div class="photos">
+                   <h2 class="shortcodes">Organizan</h2>
+                   <div class="one-third"> <a href="http://twitter.com/@erik_river"><img src="https://twimg0-a.akamaihd.net/profile_images/568909258/twitterProfilePhoto_reasonably_small.jpg" alt="Erik Rivera Morales"> Erik Rivera</a> </div>
+                   <div class="one-third"> <a href="http://twitter.com/@Deilusia" ><img src="https://twimg0-a.akamaihd.net/profile_images/1762186392/1326822856109_122464_reasonably_small.jpg" alt=" Elena Vazquez"> Elena Vazquez</a> </div>
+                   <div class="one-third "> <a href="http://mexican.vc/" ><img src="https://twimg0-a.akamaihd.net/profile_images/1399007345/avar_reasonably_small.png" alt="Santiago Zavala"> Santiago Zavala</a> </div>
+                   <div class="one-third lastCol"> <a href="http://www.angelventuresmexico.com/" ><img src="https://twimg0-a.akamaihd.net/profile_images/1187393714/logoangel_reasonably_small.jpg" alt="Angel Ventures México"> Angel Ventures México</a> </div>
+            </div>                    
+            </div>
+            <div class="one-half">
+            <div class="photos one-half">
+                <h2 class="shortcodes">Patrocinan</h2>
+                <a href="http://inquba.edu.mx/" target='_blank'><img height="80px" src="http://www.inqba.edu.mx/images/inqba-logo.jpg" alt="InQba"></a>              
+            </div>
+            </div>
         </div>
 
     </div>
