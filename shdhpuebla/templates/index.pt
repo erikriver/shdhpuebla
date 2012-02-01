@@ -182,7 +182,8 @@
             <div class="one-half">
             <div class="photos one-half">
                 <h2 class="shortcodes">Patrocinan</h2>
-                <a href="http://inquba.edu.mx/" target='_blank'><img height="80px" src="http://www.inqba.edu.mx/images/inqba-logo.jpg" alt="InQba"></a>              
+                <a href="http://inqba.edu.mx/" target='_blank'><img height="80px" src="http://www.inqba.edu.mx/images/inqba-logo.jpg" alt="InQba"></a>
+                <!--<a href="http://www.todopuebla.com/" target='_blank'><img src="http://www.todopuebla.com/images/todo_logo.png" alt="todopuebla.com" width="250px" height="42px"></a>-->
             </div>
             </div>
         </div>
