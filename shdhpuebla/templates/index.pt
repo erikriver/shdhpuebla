@@ -51,7 +51,9 @@
   </style>
 </head>
 <body>
-<a href="/static/html/flyers1ra.html"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/static/img/publicidad-boton.png" alt="Descarga publicidad"></a>
+    <!--
+    <a href="/static/html/flyers1ra.html"><img style="position: absolute; top: 0; right: 0; border: 0;" src="/static/img/publicidad-boton.png" alt="Descarga publicidad"></a>
+    -->
     <div id="introContainer">
       <div class="centerContainer">
           <br />
@@ -65,7 +67,7 @@
         <div class="sepContainer"><!-- --></div>
         <div class="advise">
           <h2 tal:content="structure event.name"># Edición</h2>
-          <h3>18 Febrero 2012 - 10:00 AM a 10:00 PM</h3>
+          <h3>19 Mayo 2012 - 10:00 AM a 10:00 PM</h3>
           <div class="sepContainer"><!-- --></div>
         </div>
         <!-- end intro --> 
@@ -98,7 +100,7 @@
                <img src="/static/img/shdh_coffe.png" class="fl" alt=""/>
                <br />
                <h2>¿Algo mas?</h2>
-               <p>La sede cuenta con una fuente de sodas con alimentos y bebidas que estará abierta durante todo el evento, lo único que te pedimos es que lleves dinero ya que lo que consumas corre por tu cuenta.</p>
+               <p>La sede cuenta con una fuente de sodas con alimentos y bebidas que estará abierta durante todo el evento.</p>
               </li>
              
           </ul>
@@ -109,14 +111,15 @@
             <li>
               <h2>¿Donde es?</h2>
               <div class="map-iframe">
-                  <iframe width="340" height="370" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.mx/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=INQBA&amp;aq=0&amp;sll=23.625269,-102.540613&amp;sspn=19.965157,36.782227&amp;ie=UTF8&amp;hq=INQBA&amp;hnear=INQBA,+72810+Puebla&amp;t=m&amp;ll=19.013324,-98.268229&amp;spn=0.006295,0.006295&amp;output=embed"></iframe><br />
+                <iframe width="340" height="370" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.mx/maps?ie=UTF8&amp;q=unarte+puebla&amp;fb=1&amp;gl=mx&amp;hq=unarte&amp;hnear=Puebla&amp;t=m&amp;ll=19.048407,-98.217608&amp;spn=0.017066,0.027381&amp;output=embed"></iframe><br />
+
               </div>
              <br>
-              <p><b>inQba Escuela de Negocios</b><br />
-              5° Retorno Circuito Osa Menor 4<br /> 
-              Reserva Territorial Atlixcáyotl<br />
-              San Andrés Cholula, Puebla<br />
-              C.P. 72810
+              <p><b>UNARTE - Universidad del Arte</b><br />
+              Acatlan 81<br /> 
+              Colonia La Paz<br />
+              Puebla, Pue.<br />
+              C.P. 72160
               </p>
              </li>
           </ul>
@@ -182,7 +185,8 @@
             <div class="one-half">
             <div class="photos one-half">
                 <h2 class="shortcodes">Patrocinan</h2>
-                <a href="http://inqba.edu.mx/" target='_blank'><img height="80px" src="http://www.inqba.edu.mx/images/inqba-logo.jpg" alt="InQba"></a>
+                <a title="" href="http://www.unarte.edu.mx/"><img alt="UNARTE - Para nosotros el Arte es lo primero, y lo segundo y lo tercero" src="http://www.unarte.edu.mx/img/logo_unarte_300.png"></a>
+
                 <!--<a href="http://www.todopuebla.com/" target='_blank'><img src="http://www.todopuebla.com/images/todo_logo.png" alt="todopuebla.com" width="250px" height="42px"></a>-->
             </div>
             </div>
