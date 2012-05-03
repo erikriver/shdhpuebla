@@ -48,6 +48,7 @@ def register(request):
             attende.user_name = data['user_name']
             attende.email = data['email']
             attende.tasks = data['tasks']
+            attende.event_id = data['event'].id
     
         else:
             attende = Attendance(**data)
