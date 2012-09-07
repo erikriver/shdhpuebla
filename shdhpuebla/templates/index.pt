@@ -67,7 +67,7 @@
         <div class="sepContainer"><!-- --></div>
         <div class="advise">
           <h2 tal:content="structure event.name"># Edición</h2>
-          <h3>19 Mayo 2012 - 10:00 AM a 10:00 PM</h3>
+          <h3>29 Septiembre 2012 - 10:00 AM a 10:00 PM</h3>
           <div class="sepContainer"><!-- --></div>
         </div>
         <!-- end intro --> 
@@ -115,11 +115,7 @@
 
               </div>
              <br>
-              <p><b>UNARTE - Universidad del Arte</b><br />
-              Acatlan 81<br /> 
-              Colonia La Paz<br />
-              Puebla, Pue.<br />
-              C.P. 72160
+              <p><b>Sede Pendiente</b><br />
               </p>
              </li>
           </ul>
@@ -176,16 +172,17 @@
             <div class="one-half">
              <div class="photos">
                    <h2 class="shortcodes">Organizan</h2>
+                   <div class="one-third "> <a href="http://twitter.com/@noe_dgz" ><img src="https://twimg0-a.akamaihd.net/profile_images/2088190530/noerrrgrrss_reasonably_small.jpg" alt="Noe Dominguez"> Noe Dominguez</a> </div>
                    <div class="one-third"> <a href="http://twitter.com/@erik_river"><img src="https://twimg0-a.akamaihd.net/profile_images/568909258/twitterProfilePhoto_reasonably_small.jpg" alt="Erik Rivera Morales"> Erik Rivera</a> </div>
                    <div class="one-third"> <a href="http://twitter.com/@Deilusia" ><img src="https://twimg0-a.akamaihd.net/profile_images/1762186392/1326822856109_122464_reasonably_small.jpg" alt=" Elena Vazquez"> Elena Vazquez</a> </div>
-                   <div class="one-third "> <a href="http://mexican.vc/" ><img src="https://twimg0-a.akamaihd.net/profile_images/1399007345/avar_reasonably_small.png" alt="Santiago Zavala"> Santiago Zavala</a> </div>
                    <div class="one-third lastCol"> <a href="http://www.angelventuresmexico.com/" ><img src="https://twimg0-a.akamaihd.net/profile_images/1187393714/logoangel_reasonably_small.jpg" alt="Angel Ventures México"> Angel Ventures México</a> </div>
             </div>                    
             </div>
             <div class="one-half">
             <div class="photos one-half">
                 <h2 class="shortcodes">Patrocinan</h2>
-                <a title="" href="http://www.unarte.edu.mx/"><img alt="UNARTE - Para nosotros el Arte es lo primero, y lo segundo y lo tercero" src="http://www.unarte.edu.mx/img/logo_unarte_300.png"></a>
+
+                <!--<a title="" href="http://www.unarte.edu.mx/"><img alt="UNARTE - Para nosotros el Arte es lo primero, y lo segundo y lo tercero" src="http://www.unarte.edu.mx/img/logo_unarte_300.png"></a>-->
 
                 <!--<a href="http://www.todopuebla.com/" target='_blank'><img src="http://www.todopuebla.com/images/todo_logo.png" alt="todopuebla.com" width="250px" height="42px"></a>-->
             </div>
