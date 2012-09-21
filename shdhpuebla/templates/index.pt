@@ -123,12 +123,15 @@
             <li>
               <h2>¿Donde es?</h2>
               <div class="map-iframe">
-                <iframe width="340" height="370" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.mx/maps?ie=UTF8&amp;q=unarte+puebla&amp;fb=1&amp;gl=mx&amp;hq=unarte&amp;hnear=Puebla&amp;t=m&amp;ll=19.048407,-98.217608&amp;spn=0.017066,0.027381&amp;output=embed"></iframe><br />
+                <iframe width="340" height="370" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.mx/maps?ie=UTF8&amp;q=unarte+puebla&amp;fb=1&amp;gl=mx&amp;hq=unarte&amp;hnear=Puebla&amp;t=m&amp;ll=19.05553148440615,-98.22895288467407&amp;spn=0.017066,0.027381&amp;output=embed"></iframe><br />
 
               </div>
              <br>
-              <p><b>Sede Pendiente</b><br />
-              </p>
+             <p><b>UNARTE - Universidad del Arte</b><br />       
+             Acatlan 81<br /> 
+             Colonia La Paz<br />
+             Puebla, Pue.<br />        
+             C.P. 72160
              </li>
           </ul>
         </div>
