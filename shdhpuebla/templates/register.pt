@@ -13,7 +13,7 @@
         
         <div id="contactForm">
               <h2>Formulario de Registro</h2>
-              <form action="register" method="post" id="contact_form">
+              <form action="/register" method="post" id="contact_form">
                 <div class="name">
                   <label for="name">Tu Nombre:</label>
                   <p> Introduce tu nombre completo</p>
@@ -32,9 +32,12 @@
                 <div id="loader">
                   <input type="submit" name="submit" value="Enviar">
                 </div>
+                <input type="hidden" name="user_id" id="user_id" value="${user_id}">
+                <input type="hidden" name="network" id="network" value="${network}">
+                <input type="hidden" name="url" id="network" value="${url}">
+                <input type="hidden" name="image_url" id="image_url" value="${image_url}">
               </form>
         </div>
-        
         
     </div>
 </body>

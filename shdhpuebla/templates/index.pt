@@ -145,13 +145,23 @@
         <div class="sepContainer"><!-- --></div>
         <div class="advise">
           <h2>Registro</h2>
+          <table style="margin-left:auto; margin-right:auto;">
+              <tr>
+              <td>
+              <form id="form-twitter" action="${login_url(request, 'twitter')}" method="post">
+                  <a href="javascript:document.getElementById('form-twitter').submit();" ><img src="/static/img/twitter-login.png" /></a>
+              </form>
+              </td>
+              <td>
+              <form id="form-facebook" action="${login_url(request, 'facebook')}" method="post">
+                  <input type="hidden" name="scope" value="email" />
+                  <a href="javascript:document.getElementById('form-facebook').submit();"><img src="/static/img/facebook-login.png" /></a>
+              </form>
+              </td>
+              </tr>
+          </table>
           <p>
-            <a href="/facebook/login"><img src="/static/img/facebook-login.png" /></a>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="/twitter/login" ><img src="/static/img/twitter-login.png" /></a>
-          </p>
-          <p>
-            Es necesario que te registres y le expliques a los demás participantes que actividades estarás realizando en el evento, si ya te registraste y quieres editar tu actividad vuelve a entrar con la red social que elegiste al principio.
+            Te recomendamos que te registres y expliques a los demás participantes que actividades estarás realizando en el evento, si ya te registraste y quieres editar tu actividad vuelve a entrar con la red social que elegiste al principio.
           </p>
           <div id="tables">
           <table style="width:940px" cellpadding="0" cellspacing="0" class="short-table blue">
@@ -196,9 +206,8 @@
             <div class="photos one-half">
                 <h2 class="shortcodes">Patrocinan</h2>
 
-                <a title="" href="http://hubemprendedor.mx/"><img alt="Hub Emprendor" src="https://si0.twimg.com/profile_images/3500715440/5e6539265ee26b0fd37ee59ac7fec818.png"></a>
+                <a title="" href="http://hubemprendedor.mx/" target="_blank"><img alt="Hub Emprendor" src="/static/img/hubemprendedor.png"></a>
 
-                <!--<a href="http://www.orcius.com/" target='_blank'><img src="http://www.ewc.mx/1902/img/logo_orcius02.png" alt="orcius.com" width="200px" height="75px"></a>-->
             </div>
             </div>
         </div>
