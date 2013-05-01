@@ -14,7 +14,7 @@ requires = [
     'pyramid_tm',
     'pyramid_debugtoolbar',
     'zope.sqlalchemy',
-    'oauth2>=1.1.3',
+    'velruse',
     ]
 
 if sys.version_info[:3] < (2,5,0):
