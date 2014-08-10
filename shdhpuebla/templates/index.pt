@@ -123,15 +123,14 @@
             <li>
               <h2>¿Donde es?</h2>
               <div class="map-iframe">
-                <iframe width="340" height="370" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.mx/maps?ie=UTF8&amp;q=19.049949,-98.205953&amp;fb=1&amp;gl=mx&amp;hq=hub+emprendedor&amp;hnear=Puebla&amp;t=m&amp;ll=19.048205,-98.201165&amp;spn=0.00356,0.005681&amp;output=embed"></iframe><br />
-
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3771.790121347893!2d-98.24142502380374!3d19.02896780339113!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2s!4v1407615125205" width="340" height="370" frameborder="0" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="border:0"></iframe><br />
               </div>
              <br>
-             <p><b>Hub Emprendedor</b><br />       
-             11 Sur esquina 4 poniente<br /> 
-             Colonia Centro<br />
-             Puebla, Pue.<br />        
-             C.P. 72090
+             <p><b>Fablab Puebla</b><br />
+             Edificio IDIT IBERO<br /> 
+             Boulevard del Niño Poblano 2901<br />
+             Unidad Territorial Atlixcayotl<br />
+             Puebla, Pue.
              </li>
           </ul>
         </div>
@@ -198,16 +197,15 @@
              <div class="photos">
                    <h2 class="shortcodes">Organizan</h2>
                    <div class="one-third "> <a href="http://twitter.com/@noe_dgz" ><img src="https://twimg0-a.akamaihd.net/profile_images/2088190530/noerrrgrrss_reasonably_small.jpg" alt="Noe Dominguez"> Noe Dominguez</a> </div>
-                   <div class="one-third"> <a href="http://twitter.com/@erik_river"><img src="https://twimg0-a.akamaihd.net/profile_images/568909258/twitterProfilePhoto_reasonably_small.jpg" alt="Erik Rivera Morales"> Erik Rivera</a> </div>
-                   <div class="one-third"> <a href="http://twitter.com/@Deilusia" ><img src="https://twimg0-a.akamaihd.net/profile_images/1762186392/1326822856109_122464_reasonably_small.jpg" alt=" Elena Vazquez"> Elena Vazquez</a> </div>
-                   <div class="one-third"> <a href="http://twitter.com/@bul_ikana" ><img src="https://si0.twimg.com/profile_images/1801995167/image1328306370_bigger.png" alt="Hugo Aguirre"> Hugo Aguirre</a> </div>
+                   <div class="one-third"> <a href="http://twitter.com/@erik_river"><img src="https://twimg0-a.akamaihd.net/profile_images/568909258/twitterProfilePhoto_reasonably_small.jpg" alt="Erik Rivera Morales"> Lorem Ipsum</a> </div>
+                   <div class="one-third"> <a href="http://twitter.com/@Deilusia" ><img src="https://twimg0-a.akamaihd.net/profile_images/1762186392/1326822856109_122464_reasonably_small.jpg" alt=" Elena Vazquez"> Maquade Luminus</a> </div>
             </div>                    
             </div>
             <div class="one-half">
             <div class="photos one-half">
                 <h2 class="shortcodes">Patrocinan</h2>
 
-                <a title="" href="http://hubemprendedor.mx/" target="_blank"><img alt="Hub Emprendor" src="/static/img/hubemprendedor.png"></a>
+                <a title="" href="http://Fablab.mx/" target="_blank"><img alt="Fablab Emprendor" src="/static/img/hubemprendedor.png"></a>
                 <a title="" href="http://hfpuebla.org/" target="_blank"><img alt="Hackers & Founders" src="/static/img/logo-HF.png"></a>
                 <a title="" href="http://codeandomexico.org/" target="_blank"><img alt="Codeando Mexico" src="/static/img/logo_codeando.png"></a>
 
