@@ -79,7 +79,7 @@
         <div class="sepContainer"><!-- --></div>
         <div class="advise">
           <h2 tal:content="structure event.name"># Edición</h2>
-          <h3>18 Mayo 2013 - 10:00 AM a 10:00 PM</h3>
+          <h3>23 de Agosto 2014 - 10:00 AM a 10:00 PM</h3>
           <div class="sepContainer"><!-- --></div>
         </div>
         <!-- end intro --> 
@@ -205,9 +205,9 @@
             <div class="photos one-half">
                 <h2 class="shortcodes">Patrocinan</h2>
 
-                <a title="" href="http://Fablab.mx/" target="_blank"><img alt="Fablab Emprendor" src="/static/img/hubemprendedor.png"></a>
-                <a title="" href="http://hfpuebla.org/" target="_blank"><img alt="Hackers & Founders" src="/static/img/logo-HF.png"></a>
-                <a title="" href="http://codeandomexico.org/" target="_blank"><img alt="Codeando Mexico" src="/static/img/logo_codeando.png"></a>
+                <a title="" href="http://www.fablabpuebla.org/" target="_blank"><img alt="Fablab Emprendor" width="350" src="/static/img/fablab_puebla.jpg"></a>
+                <a title="" href="http://hfpuebla.org/" target="_blank"><img alt="Hackers & Founders" width="350" src="/static/img/logo-HF.png"></a>
+                <a title="" href="http://codeandomexico.org/" target="_blank"><img alt="Codeando Mexico" width="350" src="/static/img/logo_codeando.png"></a>
 
             </div>
             </div>
